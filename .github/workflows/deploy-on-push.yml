@@ -15,5 +15,5 @@ jobs:
           port: ${{secrets.SSH_PORT}}
           key: ${{secrets.SSH_KEY}}
           source: "./HTML/*"
-          target: "var/www/html"
+          target: "/var/www/html"
           strio_components: 1
