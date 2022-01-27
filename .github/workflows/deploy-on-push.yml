@@ -17,3 +17,4 @@ jobs:
           source: "./HTML/*"
           target: "/var/www/html"
           strio_components: 1
+          
